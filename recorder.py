@@ -15,6 +15,7 @@ if __name__ == '__main__':
 
     recording_res = (int(screen_w), int(screen_h))
     fourcc = cv.VideoWriter_fourcc(*'XVID')
+    key = 0
 
     while not key == 27:
         filename = time.strftime("%Y%m%d-%H%M%S") + '.avi'
